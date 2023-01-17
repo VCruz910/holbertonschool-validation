@@ -1,4 +1,4 @@
-module main.go
+module github.com/VCruz910/awesome-api
 
 go 1.12
 
