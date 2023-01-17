@@ -11,6 +11,7 @@ stop:
 clean:
 	@rm -Rf dist/*
 	@rm -f awesome-api awesome.log || true
+	@pkill awesome-api
 
 test:
 	@echo "# Test 1:"
