@@ -1,3 +1,4 @@
+# Makefile commands for Hugo
 lint:
 	@golangci-lint run ./*.go
 
