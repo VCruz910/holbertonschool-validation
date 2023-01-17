@@ -9,7 +9,7 @@ stop:
 	@pkill awesome-api
 
 clean:
-	@rm -Rf ./dist/*
+	@rm -Rf dist/*
 	@rm -f awesome-api awesome.log || true
 
 test:
@@ -20,7 +20,7 @@ test:
 		echo "TESTFAILED" ;\
 	fi
 	@echo "# Test 2:"
-	@if curl http://localhost:9999/healt; then \
+	@if curl http://localhost:9999/health; then \
 		echo ""; \
 		echo "TESTOK" ;\
 	else \
