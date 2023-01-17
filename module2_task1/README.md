@@ -16,9 +16,17 @@ You should have a basic knowledge on the following concepts:
 
 This project needs the following tools / services:
 
-    - Same tools as previous module
-    - Golang in v1.15.*
-    - NPM v7+ with NodeJS v14.* (stable)
-    - Python 3 with pip module
+- Same tools as previous module
+- Golang in v1.15.*
+- NPM v7+ with NodeJS v14.* (stable)
+- Python 3 with pip module
 
 ## Lifecycle
+- build
+- post
+- clean
+- stop
+- lint
+- run
+- help
+- test
