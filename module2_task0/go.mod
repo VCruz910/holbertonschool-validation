@@ -1,5 +1,3 @@
-module github.com/VCruz910/awesome-api
+module main.go
 
 go 1.12
-
-require github.com/gorilla/mux v.1.8.0
