@@ -2,7 +2,7 @@
 lint: ## Catches errors
 	@golangci-lint run ./*.go
 
-build: ## Generates website
+build: lint ## Generates website
 	@hugo
 	@go build -o awesome-api ./*.go
 
@@ -12,10 +12,9 @@ run: ## Runs programs in background
 stop: ## Stops Programs
 	@pkill awesome-api
 
-clean: ## Cleans files
+clean: stop ## Cleans files
 	@rm -Rf dist/*
 	@rm -f awesome-api awesome.log || true
-	@pkill awesome-api
 
 test: ## Tests website
 	@echo "# Test 1:"
