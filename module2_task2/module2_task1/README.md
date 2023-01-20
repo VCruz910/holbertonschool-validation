@@ -1,4 +1,7 @@
+# Awesome Inc
+
 ## Prerequisites
+
 ### Concepts
 
 You should have a basic knowledge on the following concepts:
@@ -22,6 +25,7 @@ This project needs the following tools / services:
 - Python 3 with pip module
 
 ## Lifecycle
+
 - build
 - post
 - clean
