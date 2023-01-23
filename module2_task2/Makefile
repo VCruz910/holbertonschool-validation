@@ -1,5 +1,4 @@
-# Makefile commands for Hugo
-
+# Makefile commands for Hugo webpage
 unit-tests: ## Tests code
 	@go test -v -short -coverprofile=coverage-units.out
 
